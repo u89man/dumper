@@ -1,0 +1,93 @@
+.u89m_dump {
+    padding: 4px;
+    color: #656d73;
+    font: 12px Consolas, Menlo, "SF Mono", monospace;
+    line-height: 20px;
+    position: relative;
+}
+.u89m_dump a {
+    padding: 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #c1c9cf;
+}
+.u89m_dump a:hover {
+    color: #72787d;
+}
+.u89m_dump .recursion {
+    color: #cd584c;
+}
+.u89m_dump .brackets, .u89m_dump .braces, .u89m_dump .parentheses {
+    color: #656d73;
+}
+.u89m_dump .operator {
+    color: #8d959b;
+}
+.u89m_dump .content {
+    display: none;
+    padding-left: 20px;
+}
+.u89m_dump .show > .content {
+    display: block;
+}
+.u89m_dump .row {
+    color: #9ca4aa;
+}
+.u89m_dump .content .row {
+    display: block;
+}
+.u89m_dump .null {
+    color: #cd584c;
+}
+.u89m_dump .boolean {
+    color: #cd584c;
+}
+.u89m_dump .number {
+    color: #2879de;
+}
+.u89m_dump .string {
+    color: #2b9142;
+}
+.u89m_dump .string .nel {
+    color: #b9a80b;
+}
+.u89m_dump .string .collapse, .u89m_dump .string.show > .expand {
+    display: none;
+}
+.u89m_dump .string .expand, .u89m_dump .string.show > .collapse {
+    display: inline;
+}
+.u89m_dump .array {
+    /**/
+}
+.u89m_dump .object {
+    /**/
+}
+.u89m_dump .object .namespace {
+    color: #838b91;
+}
+.u89m_dump .object .namespace[data-ns] {
+    cursor: pointer;
+}
+.u89m_dump .object .class {
+    color: #9b8a0b;
+}
+.u89m_dump .object .hash {
+    color: #b853ac;
+}
+.u89m_dump .object .modifier {
+    color: #eb5b4f;
+}
+.u89m_dump .object .property {
+    color: #42575f;
+}
+.u89m_dump .type {
+    color: #99a578;
+}
+.u89m_dump .resource {
+    color: #9b8a0b;
+}
+.u89m_dump .unknown {
+    color: #7e8a95;
+}
+

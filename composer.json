@@ -1,0 +1,26 @@
+{
+  "name": "u89man/dumper",
+  "version": "0.3.9",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "u89man",
+      "email": "u89man@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "U89Man\\Dumper\\": "src"
+    },
+    "files": [
+      "src/Resources/helpers.php"
+    ]
+  },
+  "require": {
+    "php": ">=5.6",
+    "ext-mbstring": "*",
+    "ext-gd": "*",
+    "ext-curl": "*"
+  }
+}
+
